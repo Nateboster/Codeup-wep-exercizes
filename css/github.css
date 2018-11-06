@@ -1,0 +1,41 @@
+nav li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px 0 0;
+    vertical-align: middle;
+}
+nav ul{
+    padding: 0;
+}
+.membersBar{
+    background-color: lightgray;
+    font-weight: bold;
+    border: 1px solid black;
+}
+.members{
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bold{
+    font-weight: bold;
+    font-size: 1.5em;
+    vertical-align: top;
+}
+.banner{
+    background-color: black;
+    color: white;
+
+.spaced{
+    padding-right: 100px;
+
+}
+.rightFooter{
+    float: right;
+}
+.leftFooter{
+    float: left;
+}
+
+
+
