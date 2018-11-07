@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>checkout</title>
+</head>
+<body>
+    <form action="https://request-inspector.glitch.me" method="GET">
+        <label for="cardNum">Card number</label>
+        <input type="text" id="cardNum" name="cardNum" required>
+        <br>
+        <label for="expDate">Experation date</label>
+        <input type="text" id="expDate" name="expDate" required>
+        <br>
+        <label for="secCode">Security code</label>
+        <input type="text" id="secCode" name="secCode" required>
+        <br>
+        <label for="billing">Billing address</label>
+        <input type="text" id="billing" name="billing" required>
+        <br>
+        <label for="keep">Keep this credit card on file for future transactions</label>
+        <input type="checkbox" id="keep" name="keep">
+        <br>
+        <button type="submit">Buy Now!</button>
+    </form>
+</body>
+</html>
