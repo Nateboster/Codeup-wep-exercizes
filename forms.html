@@ -5,20 +5,21 @@
     <title>Register With Us</title>
 </head>
 <body>
-    <form method="GET" action="https://request-inspector.glitch.me/">
+    <form method="POST" action="https://www.elformo.com/forms/c7a36e14-cf91-47d4-97e9-04aef34f8049">
         <label for="email">Email</label>
         <input id="email" name="email" type="text" placeholder="Enter email"><br>
         <label for="password">Password</label>
         <input id="password" name="password" type="password" placeholder="Enter Password"><br>
         <label for="bio">Bio</label><br>
-        <textarea name="bio" rows="5" cols="50"></textarea>
+        <textarea id="bio" name="bio" rows="5" cols="50" placeholder="Enter your bio here."></textarea>
+        <hr>
         <div>
             <h3>how did you hear about us?</h3>
             <label for="billbord">
                 Billbord <input id="billbord" type="radio" name="q1" value="billbord">
             </label>
-            <label for="Radio">
-                Radio advertisement <input id="Radio" type="radio" name="q1" value="Radio">
+            <label for="radio">
+                Radio advertisement <input id="radio" type="radio" name="q1" value="Radio">
             </label>
             <label for="internet">
                 Internet advertisement <input id="internet" type="radio" name="q1" value="internet">
@@ -27,24 +28,26 @@
                 Other <input id="other" type="radio" name="q1" value="other">
             </label>
         </div>
+        <hr>
         <div>
             <h3>how did you hear about us?</h3>
-            <label for="billbord">
-                Billbord <input id="billbord" type="checkbox" name="q2" value="billbord">
+            <label for="bill">
+                Billbord <input id="bill" type="checkbox" name="q2" value="billbord">
             </label>
-            <label for="Radio">
-                Radio advertisement <input id="Radio" type="checkbox" name="q2" value="Radio">
+            <label for="rad">
+                Radio advertisement <input id="rad" type="checkbox" name="q2" value="Radio">
             </label>
-            <label for="internet">
-                Internet advertisement <input id="internet" type="checkbox" name="q2" value="internet">
+            <label for="inter">
+                Internet advertisement <input id="inter" type="checkbox" name="q2" value="internet">
             </label>
-            <label for="other">
-                Other <input id="other" type="checkbox" name="q2" value="other">
+            <label for="oth">
+                Other <input id="oth" type="checkbox" name="q2" value="other">
             </label>
         </div>
-        <br>
+        <hr>
         <div>
-            <label for="q3">How did you hear about us? </label>
+            <!--<label for="q3">How did you hear about us? </label>-->
+            <h3>how did you hear about us?</h3>
             <select id="q3" name="q3">
                 <option selected>Billbord</option>
                 <option>Radio advertisement</option>
@@ -52,7 +55,9 @@
                 <option>Other</option>
             </select>
         </div>
+        <hr>
         <!--<label></label>
         <input id="" type="radio" name="q3" value="other">-->
-
+        <button type="submit"> Click to submit</button>
+    </form>
 </body>
