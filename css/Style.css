@@ -1,0 +1,37 @@
+body{
+    background-image: url("../img/wrinkled-paper.jpg");
+    font-family: 'Spicy Rice', cursive;
+}
+.center{
+    text-align: center;
+}
+h1{
+    color: navy;
+    text-decoration: underline;
+}
+h2{
+    color: seagreen;
+    text-decoration: underline;
+}
+.background{
+    /*background-color: darkgray;*/
+    background-image: ;
+}
+ul{
+    list-style-type: square;
+}
+ol{
+    list-style-type: lower-greek;
+}
+a:link{
+    color: deeppink;
+}
+a:visited{
+    color: purple;
+}
+a.hover{
+    color: orange;
+}
+a.active {
+    color: darkgreen;
+}
