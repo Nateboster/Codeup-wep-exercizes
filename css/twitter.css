@@ -26,19 +26,18 @@ a {
     color: var(--link-color);
 }
 .top-nav {
-    width: 100%;
-    position: fixed;
-    padding: 0em;
     background: var(--light-bg);
-    display: inline;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
 }
 .nav {
-
     list-style-type: none;
-    margin: 1.5em;
+    padding: 0;
+    margin: 0;
 }
-li{
-    display: inline;
+.nav-item{
+    display: inline-block;
     padding: 1.5em;
 }
 .nav-link {
@@ -50,39 +49,37 @@ li{
     color: var(--link-color);
 }
 .profile {
-    height: 80px;
     background: var(--light-bg);
-}
-.profile-details{
-    width: 25%;
-    float:left;
-}
-.timeline{
-    width: 50%;
-    float:left;
-
-}
-.who-to-follow{
-    width: 25;
-    float:right;
-
-}
-.profile-items{
-
-}
-profile_entry{
-    margin: .5em;
-    list-style-type: none;
+    height: 80px;
 }
 .profile-image {
-    z-index: 100;
-    float: left;
+    position: absolute;
     top: 250px;
 }
-.profile-form{
-
-    line-height: 10px;
+.profile-form {
     float: right;
+    line-height: 80px;
+}
+.profile-details{
+    float: left;
+    width: calc(25% - 1em);
+    margin-left: .5em;
+    margin-right: .5em;
+    overflow: auto;
+}
+.timeline{
+    float: left;
+    width: calc(50% - 1em);
+    margin-left: .5em;
+    margin-right: .5em;
+    overflow: auto;
+}
+.who-to-follow{
+    float: left;
+    width: calc(25% - 1em);
+    margin-left: .5em;
+    margin-right: .5em;
+    overflow: auto;
 }
 .btn {
     border: 1px solid var(--main-link-color);
@@ -106,13 +103,29 @@ profile_entry{
 .text-muted {
     color: var(--main-link-color);
 }
+.container{
+    margin: 2em;
+}
 .media{
     width: 100%;
-    background-color: white;
-    border-bottom: 1px solid black;
+    background-color: var(--light-bg);
+    border-bottom: 1px solid var(--separator-color);
+    padding: .5em;
+    overflow: auto;
 }
 .media-image{
-    width: 50px;
-    margin: 1.33em;
-    float: ;
+    max-witdh: 50px;
+    margin-top: 1.33em;
+    float:left;
+}
+.media-body{
+    width: calc(100% - 50px);
+
+}
+.profile-items{
+    padding: 0px;
+    list-style-type: none;
+}
+.profile-entry{
+    margin: .5em;
 }
