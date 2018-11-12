@@ -1,0 +1,135 @@
+<!doctype html5>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>order-pizza</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- Your custom styles go here -->
+</head>
+<body>
+
+    <!-- Main page content -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- Your custom JS goes here -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Pizza World</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Praise be to Pizza</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Pizza Options
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Pizza is love</a>
+                        <a class="dropdown-item" href="#">Pizza is life</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">There is only Pizza</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Go not against the will of Pizza</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Confess your sins" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Repent</button>
+            </form>
+        </div>
+    </nav>
+    <div class="jumbotron">
+        <h1 class="display-4">Welcome to Pizza World!</h1>
+        <img src="img/pizza.png" class="pizza">
+        <!--<p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>-->
+        <!--<hr class="my-4">-->
+        <!--<p>It uses utility classes for typography and spacing to space content out within the larger container.</p>-->
+        <p class="lead">
+            <!--<a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>-->
+        </p>
+    </div>
+    <h2>Build your own Pizza</h2>
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item">
+            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Size and Crust<span class="badge badge-light">2</span></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Cheese and Sauce<span class="badge badge-light">6</span></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">We shall all be healed<span class="badge badge-light">1</span></a>
+        </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+            <div class="card" style="width: 18rem;">
+                <div class="card-header">
+                    <strong>Size</strong>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Small</li>
+                    <li class="list-group-item">Large</li>
+                    <li class="list-group-item">leviathan</li>
+                </ul>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <div class="card-header">
+                    <strong>Crust</strong>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">italian herb and cheese</li>
+                    <li class="list-group-item">Thin crust</li>
+                    <li class="list-group-item">Deap dish</li>
+                </ul>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+            <div class="card" style="width: 18rem;">
+                <div class="card-header">
+                    <strong>Cheese</strong>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Cheddar</li>
+                    <li class="list-group-item">Mozzarella</li>
+                    <li class="list-group-item">Provolone</li>
+                </ul>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <div class="card-header">
+                    <strong>Sauce</strong>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Tomato</li>
+                    <li class="list-group-item">Pesto</li>
+                    <li class="list-group-item">None</li>
+                </ul>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+            <div class="card" style="width: 18rem;">
+                <div class="card-header">
+                    <strong>Praise be to Pizza</strong>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Praise be to Pizza</li>
+                    <li class="list-group-item">Praise be to Pizza</li>
+                    <li class="list-group-item">Praise be to Pizza</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
