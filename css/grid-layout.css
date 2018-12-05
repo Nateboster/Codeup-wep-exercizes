@@ -1,10 +1,10 @@
 *{
     box-sizing: border-box;
 }
-.container{
+body{
     margin: 0 auto;
-    width: 80%;
-    max-width: 1200px;
+    width: 100%;
+    /*max-width: 1200px;*/
     /*border: 1px solid deeppink;*/
     font-weight: bolder;
 }
@@ -17,26 +17,49 @@
     clear: both;
 }
 .column{
-    background-color: #cbffcd;
-    color: deeppink;
-    border: 2px dashed cornflowerblue;
+    /*background-color: #cbffcd;*/
+    /*color: deeppink;*/
+    /*border: 2px dashed cornflowerblue;*/
     float: left;
     padding: 10px;
     margin-bottom: 1em;
 }
 
-.column.one-half{
-    width: 50%;
+nav .nav-links{
+    width: 100%;
+    /*border: 1px solid blue;*/
 }
-.column.one-third{
-    width: 33.3%;
+h1{
+    width: 100%;
+    /*border: 1px solid green;*/
 }
-.column.one-forth{
-    width: 25%;
+.header-img img{
+    width: 100%;
+    height: auto;
 }
-.column.one-sixth{
-    width: 16.5%;
-}
-.column.one-eighth{
-    width: 12.5%;
+/*.column.one-half{*/
+    /*width: 50%;*/
+/*}*/
+/*.column.one-third{*/
+    /*width: 33.3%;*/
+/*}*/
+/*.column.one-forth{*/
+    /*width: 25%;*/
+/*}*/
+/*.column.one-sixth{*/
+    /*width: 16.5%;*/
+/*}*/
+/*.column.one-eighth{*/
+    /*width: 12.5%;*/
+/*}*/
+/* screen sizes 500px and up */
+@media screen and (min-width:500px) {
+    nav .nav-links{
+        width: 35%;
+        /*border: 1px solid blue;*/
+    }
+    h1{
+        width: 30%;
+        /*border: 1px solid green;*/
+    }
 }

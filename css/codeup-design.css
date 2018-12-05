@@ -1,0 +1,118 @@
+:root{
+    --red:#E6563B;
+    --orange:#EB9D3A;
+    --green:#7CB06C;
+    --blue:#00AbA9;
+    --white:#F0F0F0;
+    --gray:#E6E6E6;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Anton', sans-serif;
+}
+*{
+    font-family: 'Abel', sans-serif;
+}
+.container{
+    padding:0;
+    background-color: var(--gray);
+}
+ul{
+    list-style-type: none;
+}
+.comp-name{
+    /*line-height: 8em;*/
+    margin-top: 1em;
+    margin-bottom: .5em;
+    /*padding-top:;*/
+    font-size: 4em;
+    text-align: center;
+    font-weight: bold;
+}
+/*.dot{*/
+    /*width: 100px;*/
+    /*height: 100px;*/
+    /*border-radius: 100px;*/
+    /*background-color: deeppink;*/
+    /*text-align: center;*/
+    /*border: 3px solid #0fb784;*/
+    /*line-height: 100px;*/
+    /*font-weight: bolder;*/
+    /*color: white;*/
+/*}*/
+
+.logo-box{
+    position: relative;
+    height: 10em;
+    background: white;
+}
+.logo{
+    position: absolute;
+    top: -75px;
+    left: 50%;
+    margin-left: -150px;
+    /*width: 300px;*/
+    /*height: 300px;*/
+    clip-path: circle(45% at 50% 50%);
+    /*-webkit-transition: -webkit-clip-path 5s ease-in-out;*/
+}
+.topbar{
+    height: 8em;
+}
+.background{
+
+}
+.spacer{
+    /*border: 1px solid purple;*/
+    height: 5em;
+}
+.listfull{
+    margin:0 auto 8em auto;
+    display: table;
+
+}
+ul{
+    padding: 0;
+    /*margin-bottom: 2em;*/
+}
+li{
+    font-size: 2.5em;
+    display: inline;
+    margin-left: .5em;
+    margin-right: .5em;
+}
+.disciption {
+    font-size: ;
+    text-align: center;
+    margin-bottom: 2em;
+}
+.location{
+    text-align: center;
+    margin-bottom: 2em;
+}
+/*.logo:hover{*/
+    /*-webkit-clip-path: circle(45% at 50% 50%);*/
+/*}*/
+
+/* Extra small devices (portrait phones, less than 576px)*/
+ /*No media query since this is the default in Bootstrap*/
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+}

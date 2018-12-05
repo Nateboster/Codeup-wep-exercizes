@@ -8,10 +8,9 @@
  * Example
  * > sayHello("codeup") // returns "Hello, codeup!"
  */
-// var name = "Sqweeeps";
-// function sayHello(name) {
-//     return ("Hello " + name);
-// }
+function sayHello(name) {
+    return ("Hello " + name);
+}
 /**
  * TODO:
  * Call the function 'sayHello' and pass your name as a string literal argument.
@@ -19,19 +18,17 @@
  *
  * console.log 'helloMessage' to check your work
  */
-// var helloMessage = sayHello(name);
+var helloMessage = sayHello("Nate");
+console.log(helloMessage);
+
 /**
  * TODO:
  * Store your name as a string in a variable named 'myName', and pass that
  * variable to the 'sayHello' function. You should see the same output in the
  * console.
  */
-// var myName = "turts";
-// function sayHello(myName) {
-//     return ("Hello " + myName);
-// }
-//
-// var helloMessage = sayHello(myName);
+var myName = "turts";
+console.log(sayHello(myName));
 
 // Don't modify the following line, it generates a random number between 1 and 3
 // and stores it in a variable named random
@@ -55,7 +52,7 @@ var random = Math.floor((Math.random() * 3) + 1);
  * number)
  */
 function isTwo(number) {
-    if (number == 2){
+    if (number === 2){
         return true;
     }else{
         return false

@@ -16,17 +16,21 @@
 // }
 //
 // for (i = 0; i < 10; i++){
-//     var randNum = Math.floor(Math.random() * 200) + 20;
+//     var randNum = Math.floor(Math.random() * 180) + 20;
 //     isEven(randNum);
 // }
 
 //------------------------ooo
 
-//oo---need to finish---oo
+for (i = 1; i < 10; i++) {
+    var message = "";
+    for(length = 0; length < i; length++){
+        message += i;
+    }
+        console.log(message);
+}
 
-// for (i = 1; i < 10; i++) {
-//     console.log(i);
-// }
+
 
 //------------------------ooo
 

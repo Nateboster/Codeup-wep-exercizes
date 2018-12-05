@@ -7,14 +7,14 @@
 //******************************
 // 3.1
 //******************************
-const price = 3.00;
-var thm = prompt("how many days are you renting the little mermaid?");
-var bb = prompt("how many days are you renting brother bear?");
-var herc = prompt("how many days are you renting hercules?");
-alert("you will pay $" + thm * price + " for the little mermaid"
-    + "\nyou will pay $" + bb * price + " for brother bear"
-    + "\nyou will pay $" + herc * price + " for hercules"
-    + "\nyour total payment will be $" + (thm * price + bb * price + herc * price));
+// const price = 3.00;
+// var thm = prompt("how many days are you renting the little mermaid?");
+// var bb = prompt("how many days are you renting brother bear?");
+// var herc = prompt("how many days are you renting hercules?");
+// alert("you will pay $" + thm * price + " for the little mermaid"
+//     + "\nyou will pay $" + bb * price + " for brother bear"
+//     + "\nyou will pay $" + herc * price + " for hercules"
+//     + "\nyour total payment will be $" + (thm * price + bb * price + herc * price));
 //******************************
 // 3.2
 //******************************
@@ -52,3 +52,9 @@ alert("you will pay $" + thm * price + " for the little mermaid"
 // }  else{
 //         alert("You can not use the offer.");
 // }
+
+
+function sayHello(name) {
+    return  "Hello " + name;
+
+}

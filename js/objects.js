@@ -158,17 +158,17 @@
      *   outputs the information described above. Refactor your loop to use your
      *   `showBookInfo` function.
      */
-    function createBook(title,firstN,lastN){
-        books.push(
-            {
-                title: title,
-                author:{
-                    firstName:firstN,
-                    lastName:lastN
-                }
-            },
-        )
-    }
+    // function createBook(title,firstN,lastN){
+    //     books.push(
+    //         {
+    //             title: title,
+    //             author:{
+    //                 firstName:firstN,
+    //                 lastName:lastN
+    //             }
+    //         },
+    //     )
+    // }
 
     function showBookInfo(book){
         console.log()
