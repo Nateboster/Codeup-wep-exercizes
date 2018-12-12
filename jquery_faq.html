@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jquery_faq</title>
+    <style>
+        .invisible {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h2>National park facts</h2>
+    <dl>
+        <dt>-Big Bend-</dt>
+        <dd class="invisible">#2 Best smelling</dd>
+        <dt>-Zion-</dt>
+        <dd class="invisible">#4 Worst Pretzels</dd>
+        <dt>-sequoia-</dt>
+        <dd class="invisible">#6 place to find a shoe </dd>
+        <dt>-Yellowstone-</dt>
+        <dd class="invisible">#14 water fountains</dd>
+        <dt>-Acadia-</dt>
+        <dd class="invisible">#1 most squirrel bites 3 years running</dd>
+        <dt>-Saguaro-</dt>
+        <dd class="invisible">#8 place to lose an argument</dd>
+        <dt>-Badlands-</dt>
+        <dd class="invisible">#2 Friendliest badgers </dd>
+        <dt>-Denali-</dt>
+        <dd class="invisible">#4 "Slopes so dope I can't cope" -The Pope</dd>
+        <dt>-Katmai-</dt>
+        <dd class="invisible">#1 Mispronounced by me</dd>
+        <dt>-Shenandoah-</dt>
+        <dd class="invisible">#15438 for penguin sitings</dd>
+    </dl>
+    <a id="toggler" href="#">Toggle All</a>
+    <script
+            src="https://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous">
+    </script>
+    <script>
+        $('#toggler').click(function(){
+            $('dd').toggle();
+        })
+    </script>
+</body>
+</html>
